@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    justify-content: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    margin-top: 5px;
+}
+
+.card {
+    width: fit-content;
+    background-color: grey;
+    /* height: auto; */
+    border: 2px solid;
+}
+
+.top-blue {
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.row-container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row {
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    padding-left: 5px;
+}
+
+.grey-background {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
